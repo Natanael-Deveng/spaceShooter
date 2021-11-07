@@ -1,2 +1,7 @@
 1 - Player
-	1.1 - Importando a sprite do player - Feito
+	1.1 - Importando a sprite do player - Feito;
+	1.2 - Criando o objeto e dando a sprite à ele - Feito;
+	
+2 - Room
+	2.1 - Criando uma viewport e camera para o jogo - Feito;
+	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - Feito;
