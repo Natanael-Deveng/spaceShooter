@@ -6,8 +6,13 @@
 	1.5 - Importar as sprite do tiro do player - Feito;
 	1.6 - Criar objeto do tiro do player;
 	1.7 - Dando um efeito ao tiro - FEITO;
+	1.8 - Destruindo o tiro ao sair da room - FEITO;
 	
 	
 2 - Room
 	2.1 - Criando uma viewport e camera para o jogo - Feito;
 	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - Feito;
+	
+3 - Inimigos
+	3.1 - Importando sprite e criando o objeto do primeiro inimigo - FEITO;
+	
