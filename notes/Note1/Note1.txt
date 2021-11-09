@@ -5,6 +5,7 @@
 	1.4 - Melhorando o código de movimentação - Feito;
 	1.5 - Importar as sprite do tiro do player - Feito;
 	1.6 - Criar objeto do tiro do player;
+	1.7 - Dando um efeito ao tiro - FEITO;
 	
 	
 2 - Room

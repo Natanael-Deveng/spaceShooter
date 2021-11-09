@@ -11,7 +11,28 @@ movimentacao = function()
 	velv = _down - _up;
 	velh = _right - _left;
 	
+	// Colisao horizontal
+	if (place_meeting(x + velh, y, obj_colisor))
+	{
+		while (!place_meeting(x + sign(velh), y, obj_colisor))
+		{
+			x += sign(velh);
+		}
+		velh = 0;
+	}
+	
 	x += velh * velocidade;
+	
+	// Colisao vertical
+	if (place_meeting(x, y + velv, obj_colisor))
+	{
+		while (!place_meeting(x, y + sign(velv), obj_colisor))
+		{
+			y += sign(velv);
+		}
+		velv = 0;
+	}
+	
 	y += velv * velocidade;
 }
 
