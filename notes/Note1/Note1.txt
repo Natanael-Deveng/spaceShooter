@@ -14,5 +14,6 @@
 	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - Feito;
 	
 3 - Inimigos
-	3.1 - Importando sprite e criando o objeto do primeiro inimigo - FEITO;
+	3.1 - Importando sprite e criando o objeto do inimigo_1 - FEITO;
+	3.2 - Fazendo o inimigo_1 atirar - FEITO;
 	
