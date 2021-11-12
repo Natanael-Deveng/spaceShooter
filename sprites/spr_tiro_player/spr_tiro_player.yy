@@ -32,7 +32,7 @@
     "spriteId": {"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 30.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

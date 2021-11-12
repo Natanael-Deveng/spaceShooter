@@ -1,9 +1,6 @@
 {
-  "spriteId": {
-    "name": "Sprite3",
-    "path": "sprites/Sprite3/Sprite3.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,7 +25,7 @@
     "path": "folders/Objects/controladores.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_colisor",
+  "name": "obj_inimigos",
   "tags": [],
   "resourceType": "GMObject",
 }

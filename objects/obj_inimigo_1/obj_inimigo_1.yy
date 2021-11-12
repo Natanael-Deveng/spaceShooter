@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_inimigos",
+    "path": "objects/obj_inimigos/obj_inimigos.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
