@@ -1,3 +1,6 @@
+// Iniciando a vida
+global.vida = 3;
+
 // Criando a funcao movimentacao
 movimentacao = function()
 {

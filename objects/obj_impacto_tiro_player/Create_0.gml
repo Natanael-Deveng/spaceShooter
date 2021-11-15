@@ -1,1 +1,1 @@
-vspeed = -.7;
+vspeed = 0;

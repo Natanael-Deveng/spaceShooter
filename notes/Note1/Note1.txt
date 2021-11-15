@@ -20,5 +20,5 @@
 	3.2 - Fazendo o inimigo_1 atirar - FEITO;
 	3.3 - Destruir tiro do inimigo ao sair da room - FEITO;
 	3.4 - Fazendo o tiro do inimigo colidir com o player - FEITO;
-	3.5 - 
+	3.5 - Fazendo o inimigo explodir ao ser atingido - FEITO;
 	

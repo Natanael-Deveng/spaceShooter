@@ -31,7 +31,7 @@
     "path": "folders/Objects/inimigos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_impacto_tiro_inimigo",
+  "name": "obj_impacto_inimigo",
   "tags": [],
   "resourceType": "GMObject",
 }
