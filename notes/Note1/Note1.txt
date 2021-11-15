@@ -8,6 +8,7 @@
 	1.7 - Dando um efeito ao tiro - FEITO;
 	1.8 - Destruindo o tiro ao sair da room - FEITO;
 	1.9 - Fazendo o tiro acertar o inimigo - FEITO;
+	1.10 - Destruir o inimigo ao colidir com o tiro - FEITO;
 	
 	
 2 - Room
@@ -17,5 +18,7 @@
 3 - Inimigos
 	3.1 - Importando sprite e criando o objeto do inimigo_1 - FEITO;
 	3.2 - Fazendo o inimigo_1 atirar - FEITO;
-	3.3 - 
+	3.3 - Destruir tiro do inimigo ao sair da room - FEITO;
+	3.4 - Fazendo o tiro do inimigo colidir com o player - FEITO;
+	3.5 - 
 	
