@@ -13,10 +13,12 @@ movimentacao = function()
 	{
 		case false:
 			velocidade = 7;
+			image_speed = 1;
 			break;
 			
 		case true:
 			velocidade = 11;
+			image_speed = 1.7;
 			break;
 	}
 	
