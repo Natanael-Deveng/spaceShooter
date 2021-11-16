@@ -12,12 +12,12 @@ movimentacao = function()
 	switch (turbo)
 	{
 		case false:
-			velocidade = 7;
+			velocidade = 6;
 			image_speed = 1;
 			break;
 			
 		case true:
-			velocidade = 11;
+			velocidade = 9;
 			image_speed = 1.7;
 			break;
 	}
@@ -30,30 +30,12 @@ movimentacao = function()
 	
 	velv = _down - _up;
 	velh = _right - _left;
-	
-	// Colisao horizontal
-	if (place_meeting(x + velh, y, obj_colisor))
-	{
-		while (!place_meeting(x + sign(velh), y, obj_colisor))
-		{
-			x += sign(velh);
-		}
-		velh = 0;
-	}
-	
-	x += velh * velocidade;
-	
-	// Colisao vertical
-	if (place_meeting(x, y + velv, obj_colisor))
-	{
-		while (!place_meeting(x, y + sign(velv), obj_colisor))
-		{
-			y += sign(velv);
-		}
-		velv = 0;
-	}
-	
+		
+	x += velh * velocidade;	
 	y += velv * velocidade;
+	
+	x = clamp(x, 64, 1856);
+	y = clamp(y, 64, 1024);
 }
 
 // Criando a funcao de tiro
