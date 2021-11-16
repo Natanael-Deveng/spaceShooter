@@ -7,6 +7,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
     {"id":{"name":"spr_inimigo_1","path":"sprites/spr_inimigo_1/spr_inimigo_1.yy",},"order":0,},
     {"id":{"name":"obj_impacto_inimigo","path":"objects/obj_impacto_inimigo/obj_impacto_inimigo.yy",},"order":2,},
+    {"id":{"name":"spr_brilho_tiro","path":"sprites/spr_brilho_tiro/spr_brilho_tiro.yy",},"order":4,},
     {"id":{"name":"spr_player_mask","path":"sprites/spr_player_mask/spr_player_mask.yy",},"order":1,},
     {"id":{"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},"order":2,},
     {"id":{"name":"spr_efeito_fundo","path":"sprites/spr_efeito_fundo/spr_efeito_fundo.yy",},"order":1,},
