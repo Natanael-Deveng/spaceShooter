@@ -1,3 +1,6 @@
+// Rodando a funcao boost
+boost();
+
 // Rodando a funcao movimentacao
 movimentacao();
 
