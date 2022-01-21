@@ -1,0 +1,29 @@
+1 - Player
+	1.1 - Importando a sprite do player - Feito;
+	1.2 - Criando o objeto e dando a sprite à ele - Feito;
+	1.3 - Movendo o player com o WASD - Feito;
+	1.4 - Melhorando o código de movimentação - Feito;
+	1.5 - Importar as sprite do tiro do player - Feito;
+	1.6 - Criar objeto do tiro do player;
+	1.7 - Destruindo o tiro ao sair da room - FEITO;
+	1.8 - Fazendo o tiro acertar o inimigo - FEITO;
+	1.9 - Destruir o inimigo ao colidir com o tiro - FEITO;
+	
+	
+2 - Room
+	2.1 - Criando uma viewport e camera para o jogo - Feito;
+	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - Feito;
+	2.3 - Criando o background do jogo - FEITO;
+	2.4 - 
+	
+3 - Inimigos
+	3.1 - Importando sprite e criando o objeto do inimigo_1 - FEITO;
+	3.2 - Fazendo o inimigo_1 atirar - FEITO;
+	3.3 - Destruir tiro do inimigo ao sair da room - FEITO;
+	3.4 - Fazendo o tiro do inimigo colidir com o player - FEITO;
+	3.5 - Fazendo o inimigo explodir ao ser atingido - FEITO;
+
+4 - Ajustes visuais
+	4.1 - Dando um efeito ao tiro - FEITO;
+	4.2 - Deixando o background mais bonito com parallax - FEITO;
+	4.3 - Sei lá. Ue garaio.
