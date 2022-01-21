@@ -20,6 +20,7 @@
     {"id":{"name":"obj_inimigo_1","path":"objects/obj_inimigo_1/obj_inimigo_1.yy",},"order":0,},
     {"id":{"name":"obj_impacto_tiro_player","path":"objects/obj_impacto_tiro_player/obj_impacto_tiro_player.yy",},"order":2,},
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},"order":1,},
+    {"id":{"name":"spr_brilho_tiro_inimigo","path":"sprites/spr_brilho_tiro_inimigo/spr_brilho_tiro_inimigo.yy",},"order":3,},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
     {"id":{"name":"spr_impacto_tiro_inimigo","path":"sprites/spr_impacto_tiro_inimigo/spr_impacto_tiro_inimigo.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
