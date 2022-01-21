@@ -26,4 +26,4 @@
 4 - Ajustes visuais
 	4.1 - Dando um efeito ao tiro - FEITO;
 	4.2 - Deixando o background mais bonito com parallax - FEITO;
-	4.3 - Sei lá. Ue garaio.
+	4.3 - Sei lá. Ue garaio. Teste 2.
