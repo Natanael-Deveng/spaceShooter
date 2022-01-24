@@ -27,3 +27,4 @@
 	4.1 - Dando um efeito ao tiro do player - FEITO;
 	4.2 - Deixando o background mais bonito com parallax - FEITO;
 	4.3 - Dando um efeito ao tiro do inimigo - FEITO;
+	teste testando eita
