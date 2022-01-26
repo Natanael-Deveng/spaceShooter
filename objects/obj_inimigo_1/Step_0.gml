@@ -1,5 +1,4 @@
-if (y >= room_height + 5)
+if (y >= room_height + 50 or x > 1970 or x < -50)
 {
 	instance_destroy();
-	show_debug_message("morri3");
 }
