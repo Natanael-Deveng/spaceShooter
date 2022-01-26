@@ -28,3 +28,4 @@
 	4.2 - Deixando o background mais bonito com parallax - FEITO;
 	4.3 - Dando um efeito ao tiro do inimigo - FEITO;
 	teste testando eita
+	4.4 - Deixando as explosões mais bonitas - FEITO;
