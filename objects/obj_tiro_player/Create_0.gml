@@ -7,4 +7,4 @@ image_yscale = 3;
 
 // Criando cores aleatórias ao tiro
 randomize();
-cores_1 = choose(c_aqua, c_green, c_navy, c_orange, c_purple, c_teal);
+cores_1 = choose(c_aqua, c_green, c_orange);

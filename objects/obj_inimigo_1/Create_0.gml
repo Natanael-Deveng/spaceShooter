@@ -11,3 +11,5 @@ atirando = function()
 	}
 }
 
+// Criando pontos
+meu_ponto = 10;

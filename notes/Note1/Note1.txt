@@ -33,6 +33,7 @@
 		3.2.7 - Fazendo o tiro_2 herdar o código do tiro_1 - FEITO;
 		3.2.8 - Fazendo o inimigo_2 criar seu próprio tiro - FEITO;
 		3.2.9 - Fazendo o tiro ir em direção ao player APENAS se o player existir - FEITO;
+	3.3 - Geração procedural dos inimigos	
 
 4 - Ajustes visuais
 	4.1 - Dando um efeito ao tiro do player - FEITO;
@@ -40,3 +41,10 @@
 	4.3 - Dando um efeito ao tiro do inimigo - FEITO;
 	teste testando eita
 	4.4 - Deixando as explosões mais bonitas - FEITO;
+	
+5 - Iniciando o sistema de pontos
+	5.1 - Criando a variável de pontos no controller - FEITO;
+	5.2 - Mostrando os pontos na tela - FEITO;
+	5.3 - Criando uma função de ganhar pontos no controller - FEITO;
+	5.4 - Invocar a função de ganhar pontos APENAS se o controller existe - FEITO;
+	5.5 - Dar pontos diferentes para inimigos diferentes - FEITO;
