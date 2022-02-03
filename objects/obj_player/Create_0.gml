@@ -1,5 +1,5 @@
 // Iniciando a vida
-global.vida = 3;
+global.vida = 3000;
 
 // Iniciando energia
 energy = 10;

@@ -33,13 +33,13 @@
 		3.2.7 - Fazendo o tiro_2 herdar o código do tiro_1 - FEITO;
 		3.2.8 - Fazendo o inimigo_2 criar seu próprio tiro - FEITO;
 		3.2.9 - Fazendo o tiro ir em direção ao player APENAS se o player existir - FEITO;
-	3.3 - Geração procedural dos inimigos	
+	3.3 - Geração procedural dos inimigos
+		3.3.1 - Criando inimigos diferentes com base no level do player - FEITO;
 
 4 - Ajustes visuais
 	4.1 - Dando um efeito ao tiro do player - FEITO;
 	4.2 - Deixando o background mais bonito com parallax - FEITO;
 	4.3 - Dando um efeito ao tiro do inimigo - FEITO;
-	teste testando eita
 	4.4 - Deixando as explosões mais bonitas - FEITO;
 	
 5 - Iniciando o sistema de pontos
@@ -48,3 +48,9 @@
 	5.3 - Criando uma função de ganhar pontos no controller - FEITO;
 	5.4 - Invocar a função de ganhar pontos APENAS se o controller existe - FEITO;
 	5.5 - Dar pontos diferentes para inimigos diferentes - FEITO;
+
+6 - Iniciando o sistema de level
+	6.1 - Criando a variável level no controller - FEITO;
+	6.2 - Exibindo o level do player na tela - FEITO;
+	6.3 - Passar de level quando o player atingir uma certa quantidade de pontos - FEITO;
+	6.4 - Dobrar a quantidade de pontos sempre que o player upar de level - FEITO;
