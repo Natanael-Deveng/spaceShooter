@@ -4,5 +4,4 @@ image_yscale = 5;
 
 vspeed = 6;
 
-randomize();
-cores_2 = choose(c_green, c_purple);
+cores_2 = c_purple;

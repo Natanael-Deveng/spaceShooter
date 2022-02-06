@@ -33,7 +33,13 @@
 		3.2.7 - Fazendo o tiro_2 herdar o código do tiro_1 - FEITO;
 		3.2.8 - Fazendo o inimigo_2 criar seu próprio tiro - FEITO;
 		3.2.9 - Fazendo o tiro ir em direção ao player APENAS se o player existir - FEITO;
-	3.3 - Geração procedural dos inimigos
+	3.3 - Inimigo_3 (Slow)
+		3.3.1 - Importando sprite e criando o objeto do inimigo_3 - FEITO;
+		3.3.2 - 
+	3.4 - Inimigo_4 (Explode e separa em 8 bolas)
+		3.4.1 - Importando sprite e criando o objeto do inimigo_4 - FEITO;
+		3.4.2 - 
+	3.5 - Geração procedural dos inimigos
 		3.3.1 - Criando inimigos diferentes com base no level do player - FEITO;
 
 4 - Ajustes visuais
