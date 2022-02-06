@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_inimigo_4",
-    "path": "sprites/spr_inimigo_4/spr_inimigo_4.yy",
+    "name": "spr_tiro_inimigo_1",
+    "path": "sprites/spr_tiro_inimigo_1/spr_tiro_inimigo_1.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_inimigo_2",
-    "path": "objects/obj_inimigo_2/obj_inimigo_2.yy",
+    "name": "obj_tiro_inimigo_1",
+    "path": "objects/obj_tiro_inimigo_1/obj_tiro_inimigo_1.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,17 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "inimigos",
-    "path": "folders/Objects/inimigos.yy",
+    "name": "obj_tiros_diagonais",
+    "path": "folders/Objects/inimigos/obj_tiros_diagonais.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimigo_4",
+  "name": "obj_tiro_diagonal_135",
   "tags": [],
   "resourceType": "GMObject",
 }

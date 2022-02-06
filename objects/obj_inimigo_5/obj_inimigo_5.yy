@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_inimigo_4",
-    "path": "sprites/spr_inimigo_4/spr_inimigo_4.yy",
+    "name": "spr_inimigo_5",
+    "path": "sprites/spr_inimigo_5/spr_inimigo_5.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,7 +25,6 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -35,7 +34,7 @@
     "path": "folders/Objects/inimigos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimigo_4",
+  "name": "obj_inimigo_5",
   "tags": [],
   "resourceType": "GMObject",
 }

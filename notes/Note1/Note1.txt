@@ -45,7 +45,12 @@
 		3.4.1 - Importando sprite e criando o objeto do inimigo_4 - FEITO;
 		3.4.2 - Fazendo o inimigo_4 herdar comportamentos do inimigo_2 - FEITO;
 		3.4.3 - Modificando os eventos herdados - FEITO;
-		3.4.4 - Fazendo o tiro explodir e virar 4 tiros diferentes
+		3.4.4 - Fazendo o tiro explodir e virar 4 tiros diagonais - FEITO;
+	3.5 - Inimigo_5
+		3.5.1 - Importando sprite e criando o objeto do inimigo_5 - FEITO;
+		3.5.2 - Fazendo o inimigo_5 herdar comportamentos do inimigo_2 - FEITO;
+		3.5.3 - Modificando os eventos herdados - FEITO;
+		3.5.4 - Quando o tiro acertar o inimigo, as direções de movimento ficam invertidas - ;
 	3.5 - Geração procedural dos inimigos
 		3.3.1 - Criando inimigos diferentes com base no level do player - FEITO;
 
