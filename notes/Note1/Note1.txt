@@ -33,12 +33,19 @@
 		3.2.7 - Fazendo o tiro_2 herdar o código do tiro_1 - FEITO;
 		3.2.8 - Fazendo o inimigo_2 criar seu próprio tiro - FEITO;
 		3.2.9 - Fazendo o tiro ir em direção ao player APENAS se o player existir - FEITO;
-	3.3 - Inimigo_3 (Slow)
+	3.3 - Inimigo_3
 		3.3.1 - Importando sprite e criando o objeto do inimigo_3 - FEITO;
-		3.3.2 - 
-	3.4 - Inimigo_4 (Explode e separa em 8 bolas)
+		3.3.2 - Fazendo o inimigo_2 herdar comportamentos do inimigo_1 - FEITO;
+		3.3.3 - Modificando os eventos herdados - FEITO;
+		3.3.4 - Fixando a cor do tiro para verde - FEITO;
+		3.3.5 - Fazendo o player ficar lento quando o tiro verde pegar - FEITO;
+		3.3.6 - Fazendo o player atirar lento quando o tiro verde pegar - FEITO;
+		3.3.7 - Fazendo o player voltar ao normal após 3 segundos - FEITO;
+	3.4 - Inimigo_4
 		3.4.1 - Importando sprite e criando o objeto do inimigo_4 - FEITO;
-		3.4.2 - 
+		3.4.2 - Fazendo o inimigo_4 herdar comportamentos do inimigo_2 - FEITO;
+		3.4.3 - Modificando os eventos herdados - FEITO;
+		3.4.4 - Fazendo o tiro explodir e virar 4 tiros diferentes
 	3.5 - Geração procedural dos inimigos
 		3.3.1 - Criando inimigos diferentes com base no level do player - FEITO;
 
