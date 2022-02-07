@@ -11,6 +11,8 @@
     {"id":{"name":"spr_inimigo_2","path":"sprites/spr_inimigo_2/spr_inimigo_2.yy",},"order":4,},
     {"id":{"name":"spr_inimigo_5","path":"sprites/spr_inimigo_5/spr_inimigo_5.yy",},"order":8,},
     {"id":{"name":"obj_inimigo_5","path":"objects/obj_inimigo_5/obj_inimigo_5.yy",},"order":14,},
+    {"id":{"name":"spr_player_dizzy","path":"sprites/spr_player_dizzy/spr_player_dizzy.yy",},"order":5,},
+    {"id":{"name":"spr_player_slow","path":"sprites/spr_player_slow/spr_player_slow.yy",},"order":6,},
     {"id":{"name":"obj_tiro_inimigo_5","path":"objects/obj_tiro_inimigo_5/obj_tiro_inimigo_5.yy",},"order":15,},
     {"id":{"name":"obj_tiro_diagonal_135","path":"objects/obj_tiro_diagonal_135/obj_tiro_diagonal_135.yy",},"order":0,},
     {"id":{"name":"spr_brilho_tiro","path":"sprites/spr_brilho_tiro/spr_brilho_tiro.yy",},"order":4,},
@@ -89,7 +91,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.1.0.609",
+    "IDEVersion": "2022.1.1.610",
   },
   "resourceVersion": "1.4",
   "name": "Spaceshooter",

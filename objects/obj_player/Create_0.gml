@@ -4,6 +4,9 @@ global.vida = 3000;
 // Iniciando a velocidade
 velocidade = 6;
 
+// Iniciando modo dizzy
+dizzy = false;
+
 // Criando o cooldown do tiro
 cooldown = 0;
 fire_rate = "normalfire";
@@ -24,8 +27,16 @@ movimentacao = function()
 	_left = keyboard_check(ord("A"));
 	_right = keyboard_check(ord("D"));
 	
-	velv = _down - _up;
-	velh = _right - _left;
+	if (dizzy == false)
+	{
+		velv = _down - _up;
+		velh = _right - _left;
+	}
+	else
+	{
+		velv = (-1)*(_down - _up);
+		velh = (-1)*(_right - _left);
+	}
 		
 	x += velh * velocidade;	
 	y += velv * velocidade;
