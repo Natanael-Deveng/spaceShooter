@@ -40,7 +40,7 @@ switch (estado)
 switch (fire_rate)
 {
 	case "normalfire":
-		cooldown -= 1;
+		cooldown -= 1.3;
 		break;
 		
 	case "slowfire":

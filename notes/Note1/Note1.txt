@@ -53,7 +53,11 @@
 		3.5.4 - Quando o tiro acertar o inimigo, as direções de movimento ficam invertidas - FEITO;
 		3.5.5 - Enquanto o player estiver "dizzy", a sprite dele vai ficar piscando estranho - FEITO;
 	3.5 - Geração procedural dos inimigos
-		3.3.1 - Criando inimigos diferentes com base no level do player - FEITO;
+		3.3.1 - Fazendo com que as posições x e y dos inimigos gerados sejam aleatórias - FEITO;
+		3.3.2 - Criando inimigos diferentes com base no level do player - FEITO;
+		3.3.3 - Criando ondas de inimigos com base no level do player - FEITO;
+		3.3.4 - Impedindo que inimigos sejam criados em cima de outros inimigos - ;
+		
 
 4 - Ajustes visuais
 	4.1 - Dando um efeito ao tiro do player - FEITO;

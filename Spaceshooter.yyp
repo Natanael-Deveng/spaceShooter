@@ -35,6 +35,7 @@
     {"id":{"name":"obj_inimigo_3","path":"objects/obj_inimigo_3/obj_inimigo_3.yy",},"order":5,},
     {"id":{"name":"obj_impacto_tiro_player","path":"objects/obj_impacto_tiro_player/obj_impacto_tiro_player.yy",},"order":2,},
     {"id":{"name":"obj_tiro_inimigo_4","path":"objects/obj_tiro_inimigo_4/obj_tiro_inimigo_4.yy",},"order":8,},
+    {"id":{"name":"obj_inimigos_controller","path":"objects/obj_inimigos_controller/obj_inimigos_controller.yy",},"order":16,},
     {"id":{"name":"obj_tiro_diagonal_225","path":"objects/obj_tiro_diagonal_225/obj_tiro_diagonal_225.yy",},"order":1,},
     {"id":{"name":"obj_tiro_player","path":"objects/obj_tiro_player/obj_tiro_player.yy",},"order":1,},
     {"id":{"name":"spr_brilho_tiro_inimigo","path":"sprites/spr_brilho_tiro_inimigo/spr_brilho_tiro_inimigo.yy",},"order":3,},

@@ -1,7 +1,56 @@
 // Geração procedural dos inimigos
-randomize();
-x_inimigo_1 = irandom_range(33, 1887);
-y_inimigo_1 = irandom_range(-800, -128);
-tempo_inimigo_1 = irandom_range(1, 2);
-instance_create_layer(x_inimigo_1, y_inimigo_1, "inst_inimigos", obj_inimigo_1);
-alarm[0] = room_speed * tempo_inimigo_1;
+var tempo_inimigo = 1;
+// Se não existir inimigos na tela
+if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
+{
+	switch (level)
+	{
+		case 1:
+			repeat(5)
+			{
+				criar_inimigo();
+				var tempo_inimigo = 1;
+				show_debug_message("Criou 5");
+			}
+			break;
+		
+		case 2:
+			repeat(10)
+			{
+				criar_inimigo();
+				var tempo_inimigo = 3;
+				show_debug_message("Criou 10");
+			}
+			break;
+			
+		case 3:
+			repeat(15)
+			{
+				criar_inimigo();
+				var tempo_inimigo = 5;
+				show_debug_message("Criou 15");
+			}
+			break;
+			
+		case 4:
+			repeat(20)
+			{
+				criar_inimigo();
+				var tempo_inimigo = 8;
+				show_debug_message("Criou 20");
+			}
+			break;
+			
+		case 5:
+			repeat(35)
+			{
+				criar_inimigo();
+				var tempo_inimigo = 10;
+				show_debug_message("Criou 30");
+			}
+			break;
+	}
+}
+
+// Reiniciando o alarme
+alarm[0] = room_speed * tempo_inimigo;
