@@ -6,7 +6,7 @@ if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
 	switch (level)
 	{
 		case 1:
-			repeat(5)
+			repeat(50)
 			{
 				criar_inimigo();
 				var tempo_inimigo = 1;
@@ -15,7 +15,7 @@ if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
 			break;
 		
 		case 2:
-			repeat(10)
+			repeat(100)
 			{
 				criar_inimigo();
 				var tempo_inimigo = 3;
@@ -24,7 +24,7 @@ if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
 			break;
 			
 		case 3:
-			repeat(15)
+			repeat(150)
 			{
 				criar_inimigo();
 				var tempo_inimigo = 5;
@@ -33,7 +33,7 @@ if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
 			break;
 			
 		case 4:
-			repeat(20)
+			repeat(200)
 			{
 				criar_inimigo();
 				var tempo_inimigo = 8;
@@ -42,7 +42,7 @@ if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
 			break;
 			
 		case 5:
-			repeat(35)
+			repeat(350)
 			{
 				criar_inimigo();
 				var tempo_inimigo = 10;

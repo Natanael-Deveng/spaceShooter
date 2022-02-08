@@ -1,3 +1,10 @@
+// Impedindo que um inimigo seja gerado em cima do outro
+if (place_meeting(x, y, obj_inimigo_1))
+{
+	instance_destroy(id, false);
+}
+
+// Velocidade vertical
 vspeed = 3;
 
 alarm[0] = room_speed * random_range(1, 2);
