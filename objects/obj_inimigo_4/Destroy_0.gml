@@ -4,4 +4,4 @@ if(instance_exists(obj_controller))
 }	
 
 // Animacao de explosao
-instance_create_layer(x, y, "inst_inimigos", obj_impacto_inimigo);
+instance_create_layer(x, y, "inst_inimigos", obj_impacto_inimigo_4);

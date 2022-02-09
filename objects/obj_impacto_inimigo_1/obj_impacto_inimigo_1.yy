@@ -29,11 +29,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "inimigos",
-    "path": "folders/Objects/inimigos.yy",
+    "name": "obj_impactos_inimigos",
+    "path": "folders/Objects/inimigos/obj_impactos_inimigos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_impacto_inimigo",
+  "name": "obj_impacto_inimigo_1",
   "tags": [],
   "resourceType": "GMObject",
 }

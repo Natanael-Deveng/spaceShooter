@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_inimigo_5",
-    "path": "sprites/spr_inimigo_5/spr_inimigo_5.yy",
+    "name": "spr_impacto_tiro_inimigo",
+    "path": "sprites/spr_impacto_tiro_inimigo/spr_impacto_tiro_inimigo.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_inimigo_2",
-    "path": "objects/obj_inimigo_2/obj_inimigo_2.yy",
+    "name": "obj_impacto_inimigo_1",
+    "path": "objects/obj_impacto_inimigo_1/obj_impacto_inimigo_1.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -25,17 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "inimigos",
-    "path": "folders/Objects/inimigos.yy",
+    "name": "obj_impactos_inimigos",
+    "path": "folders/Objects/inimigos/obj_impactos_inimigos.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_inimigo_5",
+  "name": "obj_impacto_inimigo_2",
   "tags": [],
   "resourceType": "GMObject",
 }
