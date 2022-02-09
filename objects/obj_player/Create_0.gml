@@ -7,9 +7,50 @@ velocidade = 6;
 // Iniciando modo dizzy
 dizzy = false;
 
+// Iniciando o level de tiro do player
+fire_rate = 1;
+
+fire_rate_level_up = function()
+{
+	switch (fire_state)
+	{
+		case 1:
+			cooldown -= .5;
+		break;
+		
+		case 2:
+			cooldown -= 1;
+		break;
+		
+		case 3:
+			cooldown -= 1.35;
+		break
+		
+		case 4:
+			cooldown -= 1.75;
+		break;
+		
+		case "slow_fire":
+			cooldown -= .3;
+		break;	
+		
+		default:
+			cooldown -= 1.5;
+		break;	
+	}
+	
+	if (keyboard_check_pressed(ord("T")))
+	{
+		fire_rate += 1;
+	}
+	else if (keyboard_check_pressed(ord("G")))
+	{
+		fire_rate -= 1;
+	}
+}
+
 // Criando o cooldown do tiro
 cooldown = 0;
-fire_rate = "normalfire";
 
 // Iniciando state machine
 estado = "normal";

@@ -7,26 +7,27 @@ switch (estado)
 		image_speed = .7;
 		can_boost = false;
 		energy_recharge = false;
-		fire_rate = "slowfire";
+		fire_state = "slow_fire";
 		if (alarm[0] = -1)
 		{
 			alarm[0] = room_speed * 3;
 		}
-		break;
+	break;
 		
 	case "normal":
+		fire_state = fire_rate
 		sprite_index = spr_player;
-		fire_rate = "normalfire";
 		can_boost = true;
 		velocidade = 6;
 		image_speed = 1;
-		break;
+	break;
 		
 	case "turbo":
 		sprite_index = spr_player;
 		velocidade = 9;
 		image_speed = 1.7;
-		break;
+	break;
+	
 	case "dizzy":
 		dizzy = true
 		sprite_index = spr_player_dizzy;
@@ -34,19 +35,11 @@ switch (estado)
 		{
 			alarm[1] = room_speed * 3;
 		}
-		break;
+	break;
 }
 
-switch (fire_rate)
-{
-	case "normalfire":
-		cooldown -= 1.3;
-		break;
-		
-	case "slowfire":
-		cooldown -= .35;
-		break;
-}
+// Rodando a funcao de level up do tiro
+fire_rate_level_up();
 
 // Rodando a funcao boost
 boost();

@@ -14,7 +14,6 @@
 	2.1 - Criando uma viewport e camera para o jogo - Feito;
 	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - Feito;
 	2.3 - Criando o background do jogo - FEITO;
-	2.4 - 
 	
 3 - Inimigos
 	3.1 - Inimigo_1
@@ -56,7 +55,7 @@
 		3.3.1 - Fazendo com que as posições x e y dos inimigos gerados sejam aleatórias - FEITO;
 		3.3.2 - Criando inimigos diferentes com base no level do player - FEITO;
 		3.3.3 - Criando ondas de inimigos com base no level do player - FEITO;
-		3.3.4 - Impedindo que inimigos sejam criados em cima de outros inimigos - ;
+		3.3.4 - Impedindo que inimigos sejam criados em cima de outros inimigos - FEITO;
 		
 
 4 - Ajustes visuais
@@ -77,3 +76,4 @@
 	6.2 - Exibindo o level do player na tela - FEITO;
 	6.3 - Passar de level quando o player atingir uma certa quantidade de pontos - FEITO;
 	6.4 - Dobrar a quantidade de pontos sempre que o player upar de level - FEITO;
+	6.5 - Criando um sistema de level de tiro para aumentar o fire_rate com base no level do tiro - FEITO;

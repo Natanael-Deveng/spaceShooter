@@ -6,49 +6,60 @@ if (!instance_exists(obj_inimigo_1) and !instance_exists(obj_inimigo_2))
 	switch (level)
 	{
 		case 1:
-			repeat(50)
+			repeat(5)
 			{
 				criar_inimigo();
-				var tempo_inimigo = 1;
+				//var tempo_inimigo = 1;
 				show_debug_message("Criou 5");
 			}
-			break;
+		break;
 		
 		case 2:
-			repeat(100)
+			repeat(10)
 			{
 				criar_inimigo();
-				var tempo_inimigo = 3;
+				//var tempo_inimigo = 3;
 				show_debug_message("Criou 10");
 			}
-			break;
+		break;
 			
 		case 3:
-			repeat(150)
+			repeat(15)
 			{
 				criar_inimigo();
-				var tempo_inimigo = 5;
+				//var tempo_inimigo = 5;
 				show_debug_message("Criou 15");
 			}
-			break;
+		break;
 			
 		case 4:
-			repeat(200)
+			repeat(20)
 			{
 				criar_inimigo();
-				var tempo_inimigo = 8;
+				//var tempo_inimigo = 8;
 				show_debug_message("Criou 20");
 			}
-			break;
+		break;
 			
 		case 5:
-			repeat(350)
+			repeat(35)
 			{
 				criar_inimigo();
-				var tempo_inimigo = 10;
+				//var tempo_inimigo = 10;
 				show_debug_message("Criou 30");
 			}
-			break;
+		break;
+		
+		default:
+			repeat(40)
+			{
+				criar_inimigo();
+				//var tempo_inimigo = 10;
+				show_debug_message("Criou 40");
+			}
+		break;	
+		
+		
 	}
 }
 

@@ -31,31 +31,45 @@ criar_inimigo = function()
 
 	// Alocando as posições aleatórias de x e y em uma variável local
 	var x_inimigo_1 = irandom_range(33, 1887);
-	var y_inimigo_1 = irandom_range(-800, -128);
+	var y_inimigo_1 = irandom_range(-1500, -128);
 
 	// Alocando o inimigo_1 em uma variável local
 	var inimigo = obj_inimigo_1;
 
 	// Criando um inimigo proceduralmente com base no level
 	var chance = irandom_range(0, level);
-
-	if (chance = 2)
+	
+	switch (chance)
 	{
-		var inimigo = obj_inimigo_2;
+		case 0:
+			var inimigo = obj_inimigo_1;
+		break;
+		
+		case 1:
+			var inimigo = obj_inimigo_1;
+		break;
+		
+		case 2:
+			var inimigo = obj_inimigo_2;
+		break;
+		
+		case 3:
+			var inimigo = obj_inimigo_3;
+		break;
+		
+		case 4:
+			var inimigo = obj_inimigo_5;
+		break;
+			
+		case 5:
+			var inimigo = obj_inimigo_4;
+		break;
+		
+		default:
+			var inimigo = choose(obj_inimigo_1, obj_inimigo_2, obj_inimigo_3, obj_inimigo_4, obj_inimigo_5);
+		break;			
 	}
-	else if (chance = 3)
-	{
-		var inimigo = obj_inimigo_3;
-	}
-	else if (chance = 4)
-	{
-		var inimigo = obj_inimigo_5;
-	}
-	else if (chance = 5)
-	{
-		var inimigo = obj_inimigo_4;
-	}
-
+	
 	// Gerando os inimigos proceduralmente
 	instance_create_layer(x_inimigo_1, y_inimigo_1, "inst_inimigos", inimigo);
 }
