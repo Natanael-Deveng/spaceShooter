@@ -8,6 +8,16 @@
 	1.7 - Destruindo o tiro ao sair da room - FEITO;
 	1.8 - Fazendo o tiro acertar o inimigo - FEITO;
 	1.9 - Destruir o inimigo ao colidir com o tiro - FEITO;
+	1.10 - Criando a state machine do player - FEITO;
+	1.11 - Criando o boost do player - FEITO;
+	1.12 - Criando o estado de slow do player - FEITO;
+	1.13 - Criando o estado de dizzy do player - FEITO;
+	1.14 - Importando a sprite e criando o objeto do segundo tiro do player - FEITO;
+	1.15 - Fazer o segundo tiro do player herdar comportamentos do primeiro tiro - FEITO;
+	1.16 - Realizar alterações de brilho no segundo tiro - FEITO;
+	1.17 - Atirando 2 tiros por vez com o segundo tiro - FEITO;
+	1.18 - Fazendo o segundo tiro fazer zig-zag - FEITO;
+	
 	
 	
 2 - Room
