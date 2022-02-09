@@ -27,8 +27,12 @@ fire_rate_level_up = function()
 		break
 		
 		case 4:
-			cooldown -= .75;
+			cooldown -= .65;
 		break;
+		
+		case 5:
+			cooldown -= .7;
+		break;	
 		
 		case "slow_fire":
 			cooldown -= .3;
@@ -39,7 +43,7 @@ fire_rate_level_up = function()
 		break;	
 	}
 	
-	if (keyboard_check_pressed(ord("T")) and fire_rate < 4)
+	if (keyboard_check_pressed(ord("T")) and fire_rate < 5)
 	{
 		fire_rate += 1;
 	}
@@ -96,17 +100,22 @@ atirando = function()
 		switch(fire_rate)
 		{
 			case 1:
-				var tiro_1 = instance_create_layer(x, (y - sprite_height/2), "inst_player", obj_tiro_player);
+				instance_create_layer(x, (y - sprite_height/2), "inst_player", obj_tiro_player);
 			break;
 			
 			case 2:
-				var tiro_1 = instance_create_layer(x, (y - sprite_height/2), "inst_player", obj_tiro_player);
+				instance_create_layer(x, (y - sprite_height/2), "inst_player", obj_tiro_player);
 			break;
 			
 			case 3:
 				instance_create_layer(x + 50, (y - sprite_height/2), "inst_player", obj_tiro2_player_direita);
 				instance_create_layer(x - 50, (y - sprite_height/2), "inst_player", obj_tiro2_player_esquerda);
 			break;	
+			
+			case 4:
+				instance_create_layer(x + 50, (y - sprite_height/2), "inst_player", obj_tiro2_player_direita);
+				instance_create_layer(x - 50, (y - sprite_height/2), "inst_player", obj_tiro2_player_esquerda);
+				instance_create_layer(x, (y - sprite_height/2), "inst_player", obj_tiro_player)
 		}
 		
 		cooldown = 15;

@@ -17,6 +17,7 @@
 	1.16 - Realizar alterações de brilho no segundo tiro - FEITO;
 	1.17 - Atirando 2 tiros por vez com o segundo tiro - FEITO;
 	1.18 - Fazendo o segundo tiro fazer zig-zag - FEITO;
+	1.19 - Fazendo o terceiro level do tiro do player - FEITO;
 	
 	
 	
