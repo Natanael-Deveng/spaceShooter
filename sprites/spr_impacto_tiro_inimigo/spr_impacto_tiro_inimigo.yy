@@ -83,7 +83,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_impacto_tiro_inimigo","path":"sprites/spr_impacto_tiro_inimigo/spr_impacto_tiro_inimigo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_impacto_tiro_inimigo",
     "tags": [],
     "resourceType": "GMSequence",

@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tiro2_player","path":"sprites/spr_tiro2_player/spr_tiro2_player.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tiro2_player",
     "tags": [],
     "resourceType": "GMSequence",

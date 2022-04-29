@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_tiro_player","path":"sprites/spr_tiro_player/spr_tiro_player.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_tiro_player",
     "tags": [],
     "resourceType": "GMSequence",

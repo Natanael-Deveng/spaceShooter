@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_efeito_fundo","path":"sprites/spr_efeito_fundo/spr_efeito_fundo.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_efeito_fundo",
     "tags": [],
     "resourceType": "GMSequence",

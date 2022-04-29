@@ -88,3 +88,4 @@
 	6.3 - Passar de level quando o player atingir uma certa quantidade de pontos - FEITO;
 	6.4 - Dobrar a quantidade de pontos sempre que o player upar de level - FEITO;
 	6.5 - Criando um sistema de level de tiro para aumentar o fire_rate com base no level do tiro - FEITO;
+	teste 1 2 3

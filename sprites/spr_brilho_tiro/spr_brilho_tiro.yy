@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"spr_brilho_tiro","path":"sprites/spr_brilho_tiro/spr_brilho_tiro.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "spr_brilho_tiro",
     "tags": [],
     "resourceType": "GMSequence",
