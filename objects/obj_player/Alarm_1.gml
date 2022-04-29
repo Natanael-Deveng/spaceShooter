@@ -1,0 +1,2 @@
+estado = "normal";
+dizzy = false;

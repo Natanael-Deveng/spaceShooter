@@ -1,0 +1,90 @@
+1 - Player
+	1.1 - Importando a sprite do player - Feito;
+	1.2 - Criando o objeto e dando a sprite à ele - Feito;
+	1.3 - Movendo o player com o WASD - Feito;
+	1.4 - Melhorando o código de movimentação - Feito;
+	1.5 - Importar as sprite do tiro do player - Feito;
+	1.6 - Criar objeto do tiro do player;
+	1.7 - Destruindo o tiro ao sair da room - FEITO;
+	1.8 - Fazendo o tiro acertar o inimigo - FEITO;
+	1.9 - Destruir o inimigo ao colidir com o tiro - FEITO;
+	1.10 - Criando a state machine do player - FEITO;
+	1.11 - Criando o boost do player - FEITO;
+	1.12 - Criando o estado de slow do player - FEITO;
+	1.13 - Criando o estado de dizzy do player - FEITO;
+	1.14 - Importando a sprite e criando o objeto do segundo tiro do player - FEITO;
+	1.15 - Fazer o segundo tiro do player herdar comportamentos do primeiro tiro - FEITO;
+	1.16 - Realizar alterações de brilho no segundo tiro - FEITO;
+	1.17 - Atirando 2 tiros por vez com o segundo tiro - FEITO;
+	1.18 - Fazendo o segundo tiro fazer zig-zag - FEITO;
+	1.19 - Fazendo o terceiro level do tiro do player - FEITO;
+	
+	
+	
+2 - Room
+	2.1 - Criando uma viewport e camera para o jogo - Feito;
+	2.2 - Ajustando as dimensões para a view ser grande e o viewport menor - Feito;
+	2.3 - Criando o background do jogo - FEITO;
+	
+3 - Inimigos
+	3.1 - Inimigo_1
+		3.1.1 - Importando sprite e criando o objeto do inimigo_1 - FEITO;
+		3.1.2 - Fazendo o inimigo_1 atirar - FEITO;
+		3.1.3 - Destruir tiro do inimigo_1 ao sair da room - FEITO;
+		3.1.4 - Fazendo o tiro do inimigo_1 colidir com o player - FEITO;
+		3.1.5 - Fazendo o inimigo_1 explodir ao ser atingido - FEITO;
+	3.2 - Inimigo_2
+		3.2.1 - Importando sprite e criando o objeto do inimigo_2 - FEITO;
+		3.2.2 - Fazendo o inimigo_2 herdar comportamentos do inimigo_1 - FEITO;
+		3.2.3 - Modificando os eventos herdados - FEITO;
+		3.2.4 - Verificando a posição do inimigo_2 - FEITO;
+		3.2.5 - Fazendo o inimigo_2 ir para a direção oposta da qual está - FEITO;
+		3.2.6 - Importando o sprite e criando o objeto do tiro do inimigo_2 - FEITO;
+		3.2.7 - Fazendo o tiro_2 herdar o código do tiro_1 - FEITO;
+		3.2.8 - Fazendo o inimigo_2 criar seu próprio tiro - FEITO;
+		3.2.9 - Fazendo o tiro ir em direção ao player APENAS se o player existir - FEITO;
+	3.3 - Inimigo_3
+		3.3.1 - Importando sprite e criando o objeto do inimigo_3 - FEITO;
+		3.3.2 - Fazendo o inimigo_2 herdar comportamentos do inimigo_1 - FEITO;
+		3.3.3 - Modificando os eventos herdados - FEITO;
+		3.3.4 - Fixando a cor do tiro para verde - FEITO;
+		3.3.5 - Fazendo o player ficar lento quando o tiro verde pegar - FEITO;
+		3.3.6 - Fazendo o player atirar lento quando o tiro verde pegar - FEITO;
+		3.3.7 - Fazendo o player voltar ao normal após 3 segundos - FEITO;
+	3.4 - Inimigo_4
+		3.4.1 - Importando sprite e criando o objeto do inimigo_4 - FEITO;
+		3.4.2 - Fazendo o inimigo_4 herdar comportamentos do inimigo_2 - FEITO;
+		3.4.3 - Modificando os eventos herdados - FEITO;
+		3.4.4 - Fazendo o tiro explodir e virar 4 tiros diagonais - FEITO;
+	3.5 - Inimigo_5
+		3.5.1 - Importando sprite e criando o objeto do inimigo_5 - FEITO;
+		3.5.2 - Fazendo o inimigo_5 herdar comportamentos do inimigo_2 - FEITO;
+		3.5.3 - Modificando os eventos herdados - FEITO;
+		3.5.4 - Quando o tiro acertar o inimigo, as direções de movimento ficam invertidas - FEITO;
+		3.5.5 - Enquanto o player estiver "dizzy", a sprite dele vai ficar piscando estranho - FEITO;
+	3.5 - Geração procedural dos inimigos
+		3.3.1 - Fazendo com que as posições x e y dos inimigos gerados sejam aleatórias - FEITO;
+		3.3.2 - Criando inimigos diferentes com base no level do player - FEITO;
+		3.3.3 - Criando ondas de inimigos com base no level do player - FEITO;
+		3.3.4 - Impedindo que inimigos sejam criados em cima de outros inimigos - FEITO;
+		
+
+4 - Ajustes visuais
+	4.1 - Dando um efeito ao tiro do player - FEITO;
+	4.2 - Deixando o background mais bonito com parallax - FEITO;
+	4.3 - Dando um efeito ao tiro do inimigo - FEITO;
+	4.4 - Deixando as explosões mais bonitas - FEITO;
+	
+5 - Iniciando o sistema de pontos
+	5.1 - Criando a variável de pontos no controller - FEITO;
+	5.2 - Mostrando os pontos na tela - FEITO;
+	5.3 - Criando uma função de ganhar pontos no controller - FEITO;
+	5.4 - Invocar a função de ganhar pontos APENAS se o controller existe - FEITO;
+	5.5 - Dar pontos diferentes para inimigos diferentes - FEITO;
+
+6 - Iniciando o sistema de level
+	6.1 - Criando a variável level no controller - FEITO;
+	6.2 - Exibindo o level do player na tela - FEITO;
+	6.3 - Passar de level quando o player atingir uma certa quantidade de pontos - FEITO;
+	6.4 - Dobrar a quantidade de pontos sempre que o player upar de level - FEITO;
+	6.5 - Criando um sistema de level de tiro para aumentar o fire_rate com base no level do tiro - FEITO;
